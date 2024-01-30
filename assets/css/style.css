@@ -5,8 +5,8 @@
 }
 
 .container{
-    margin-left: 56px;
-    margin-right: 56px;
+    margin-left: 125px;
+    margin-right: 125px;
    
 }
 header{
@@ -37,9 +37,17 @@ header{
 .container .AllOfthem{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 23px;
+}
+.container .AllOfthem .LeftOne{
+    width: 589px;
+  height: 261.77px;
 }
 .container .AllOfthem .LeftOne img{
-    max-width: 100%;
+
+  width: 100%;
+  border-radius: 5px;
+  height: 100%;
 }
 .container .AllOfthem .rightOne h1{
     margin-bottom: 0.5rem;
@@ -47,10 +55,80 @@ header{
     line-height: 1.2;
     font-size: 2.5rem;
 }
+
 .container .AllOfthem .rightOne p{
-    margin-bottom: 1rem;
+    margin-bottom: 1.4rem;
     font-size: 1rem;
     line-height: 1.5;
     color: #212529;
     font-weight: 400;
+}
+.container .AllOfthem .rightOne a{
+ padding: 8px;
+ color: #fff;
+ text-decoration: none;
+    background-color: #0d6efd;
+    border-radius: 4px;
+}
+.container .AllOfthem .rightOne {
+    margin-left: 125px;
+
+}
+.container .bodyPart{
+    background-color: rgb(108, 117, 125);
+    text-align: center;
+    padding-top: 2.7rem !important;
+    padding-bottom: 2.7rem !important;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 3.7rem;
+}
+.container .AllCards{
+    display: flex;
+    justify-content: space-between;
+}
+.container .AllCards .card{
+    width: 346px;
+    height:224.4px ;
+    border: 1px solid rgba(0, 0, 0, 0.175);;
+}
+.container .AllCards .card .allWritingParts{
+    margin-bottom: 42px;
+}
+.container .AllCards .card .allWritingParts h2{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-left: 26px;
+    margin-top: 12px;
+}
+.container .AllCards .card .allWritingParts p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 26px ;
+}
+.container .AllCards .card{
+    border-radius: 5px;
+}
+.container .AllCards .card .buttonPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    background-color: rgba(0, 0, 0, 0.03);
+    width:346px ;
+height: calc(224.4px/6);
+padding-bottom:0.5px;
+
+}
+.container .AllCards .card .buttonPart a{
+ color: #fff;
+ text-decoration: none;
+    background-color: #0d6efd;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 4px;
+    margin-left: 12px;
+    margin-top: 3px;
+    
 }
