@@ -132,3 +132,14 @@ padding-bottom:0.5px;
     margin-top: 3px;
     
 }
+.TheLast{
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    top: 123px;
+    padding-bottom: 3.3rem;
+}
+.TheLast p{
+    color: #fff;
+    padding-top: 45px;
+}
